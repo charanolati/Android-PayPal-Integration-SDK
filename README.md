@@ -18,13 +18,13 @@ Recompile/ Re-run the project in order for android studio to download the depend
 
 ***Note: The version of the custom tab should satisfy your build version.***
 
-1. mSend Line item details to Merchant Server to initiate the create payment API call. Line item object sent from mobile app to server, server should transform the product object into a Payload object, which is used to make create payment API call.
+- Send Line item details to Merchant Server to initiate the create payment API call. Line item object sent from mobile app to server, server should transform the product object into a Payload object, which is used to make create payment API call.
 
-    -1.1 From server initiate your create payment API call with your product object as described in PayPal create Payment API Document
+- From server initiate your create payment API call with your product object as described in [PayPal create Payment API Document](https://developer.paypal.com/docs/api/payments/#payment)
 
-    -1.2 PayPal will return with a response with Pay ID and other information needed for the subsequent calls.
+- PayPal will return with a response with Pay ID and other information needed for the subsequent calls.
 
-    -1.3 Create Payment API call if successful will contain PAY ID and Links array object, this array will contain an object with method key as REDIRECT e.g.
+- Create Payment API call if successful will contain PAY ID and Links array object, this array will contain an object with method key as REDIRECT e.g.
 ```
     {
     "href": "https://api.sandbox.paypal.com/v1/payments//cgi-bin/webscr?cmd=_express-checkout&token=EC-60385559L1062554J",
