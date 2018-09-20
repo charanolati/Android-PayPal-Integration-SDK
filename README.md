@@ -20,6 +20,7 @@ Note: The version of the custom tab should satisfy your build version.
 1.1 From server initiate your create payment API call with your product object as described in PayPal create Payment API Document
 1.2 PayPal will return with a response with Pay ID and other information needed for the subsequent calls.
 1.3 Create Payment API call if successful will contain PAY ID and Links array object, this array will contain an object with method key as REDIRECT e.g.
+
     {
     "href": "https://api.sandbox.paypal.com/v1/payments//cgi-bin/webscr?cmd=_express-checkout&token=EC-60385559L1062554J",
     "rel": "approval_url",
