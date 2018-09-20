@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="Enter Price"
+        android:id="@+id/priceEt"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:background="#0cbe1b"
+        android:text="Proceed"
+        android:textColor="@android:color/white"
+        android:id="@+id/proceedbtn"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/priceEt"
+        android:layout_centerHorizontal="true"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
