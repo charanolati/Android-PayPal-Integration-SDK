@@ -7,7 +7,7 @@ Handling Custom Chrome Tab (Android) for
 PayPal Express Checkout (REST API)
 Version – 2.0
 
-#Step 1
+### Step 1
 
 Add Chrome Custom Tab Dependencies
 In your android app open build.gradle and in the dependencies section add the chrome custom tab dependencies compile 
@@ -29,7 +29,7 @@ Recompile/ Re-run the project in order for android studio to download the depend
     "method": "REDIRECT"
     }
 ```
-#Step 2
+### Step 2
 
 Once the dependencies are downloaded then use the following snippet to open any external link to open in Chrome Custom Tab
 ```
@@ -40,7 +40,7 @@ Once the dependencies are downloaded then use the following snippet to open any 
 ```
 Replace url with the actual url to be opened in CCT
 
-#Step 3
+### Step 3
 
 Sending back response from server to Android activity
 1. Decide which activity should be notified for success response and error response
@@ -59,7 +59,7 @@ Sending back response from server to Android activity
 ```
 This will call your android intent declared in android manifest to handle success or error notification.
 
-##Steps to run the demo:
+## Steps to run the demo:
 1. Clone the android app repository to your local machine
 2. Open the project from Android Studio.
 3. Connect your device via usb, Run – Run App will deploy the app to your android device
