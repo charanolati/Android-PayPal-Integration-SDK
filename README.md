@@ -41,11 +41,12 @@ Once the dependencies are downloaded then use the following snippet to open any 
     customTabsIntent.intent.setData(Uri.parse(url)); 
     startActivityForResult(customTabsIntent.intent, CHROME_CUSTOM_TAB_REQUEST_CODE);
 ```
-Replace url with the actual url to be opened in CCT
+Replace ** URL ** with the ** Actual Url ** to be opened in ** CCT **
 
 ### Step 3
 
-Sending back response from server to Android activity
+* Sending back response from server to Android activity *
+
 1. Decide which activity should be notified for success response and error response
 2. In Android Manifest declare the success / failure activity as 
 ```
@@ -63,11 +64,12 @@ Sending back response from server to Android activity
 This will call your android intent declared in android manifest to handle success or error notification.
 
 ## Steps to run the demo:
+
 1. Clone the android app repository to your local machine
 2. Open the project from Android Studio.
 3. Connect your device via usb, Run – Run App will deploy the app to your android device
 4. Click Proceed by entering amount  
 5. You will be redirected to payment page using CCT 
 6. Proceed with Transaction 
-7.Once Payment is Successfull you will be Automatically redirected to Final Activity
+7. Once Payment is Successfull you will be Automatically redirected to Final Activity
 
