@@ -73,3 +73,14 @@ This will call your android intent declared in android manifest to handle succes
 6. Proceed with Transaction 
 7. Once Payment is Successfull you will be Automatically redirected to Final Activity
 
+### SCREENSHOTS 
+
+![Alt text](/ScreenShots/1.png?raw=true "")
+![Alt text](/ScreenShots/2.png?raw=true "")
+![Alt text](/ScreenShots/3.png?raw=true "")
+![Alt text](/ScreenShots/4.png?raw=true "")
+![Alt text](/ScreenShots/5.png?raw=true "")
+![Alt text](/ScreenShots/6.png?raw=true "")
+![Alt text](/ScreenShots/7.png?raw=true "")
+![Alt text](/ScreenShots/8.png?raw=true "")
+![Alt text](/ScreenShots/9.png?raw=true "")
