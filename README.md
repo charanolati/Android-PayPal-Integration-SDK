@@ -41,11 +41,11 @@ Once the dependencies are downloaded then use the following snippet to open any 
     customTabsIntent.intent.setData(Uri.parse(url)); 
     startActivityForResult(customTabsIntent.intent, CHROME_CUSTOM_TAB_REQUEST_CODE);
 ```
-Replace ** URL ** with the ** Actual Url ** to be opened in ** CCT **
+Replace **URL** with the **Actual Url** to be opened in **CCT**
 
 ### Step 3
 
-* Sending back response from server to Android activity *
+*Sending back response from server to Android activity*
 
 1. Decide which activity should be notified for success response and error response
 2. In Android Manifest declare the success / failure activity as 
