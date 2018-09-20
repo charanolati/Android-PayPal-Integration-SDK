@@ -47,8 +47,8 @@ Replace **URL** with the **Actual Url** to be opened in **CCT**
 
 *Sending back response from server to Android activity*
 
-1. Decide which activity should be notified for success response and error response
-2. In Android Manifest declare the success / failure activity as 
+1 Decide which activity should be notified for success response and error response
+2 In Android Manifest declare the success / failure activity as 
 ```
     <category android:name="android.intent.category.DEFAULT" /> 
     <category android:name="android.intent.category.BROWSABLE" /> 
