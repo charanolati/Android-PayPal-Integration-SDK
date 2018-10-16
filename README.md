@@ -57,7 +57,7 @@ Replace **URL** with the **Actual Url** to be opened in **CCT**
 3. Declare your package name in android scheme
 4. In your server side PHP code you can directly call your android intent by doing an server side PHP 302 redirect.
 ```
-    $url = 'Location:com.gurucharan.paypalcustomtabdemo:success/'.body.id.'/'.body.payer.payer_info.payer_id;
+    $url = "Location:com.gurucharan.paypalcustomtabdemo:success/".$body_id."/".$body_payer_payer_info_payer_id;
     header('$url', true, 302);
     exit;
 ```
