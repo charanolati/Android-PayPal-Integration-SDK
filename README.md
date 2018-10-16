@@ -52,7 +52,7 @@ Replace **URL** with the **Actual Url** to be opened in **CCT**
 ```
     <category android:name="android.intent.category.DEFAULT" /> 
     <category android:name="android.intent.category.BROWSABLE" /> 
-    <data android:scheme="com.example.paypalcustomtabdemo"/>
+    <data android:scheme="com.gurucharan.paypalcustomtabdemo"/>
 ```    
 3. Declare your package name in android scheme
 4. In your server side PHP code you can directly call your android intent by doing an server side PHP 302 redirect.
