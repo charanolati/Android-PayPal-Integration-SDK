@@ -1,4 +1,6 @@
-# Android-PayPal-Integration-SDK
+#Paypal API is Updated to [Version 2](https://developer.paypal.com/docs/api/payments/v2/)
+
+# Android-PayPal-Integration-SDK-Version-1
 PayPal Payment Gateway Android SDK Integration 
 
 
